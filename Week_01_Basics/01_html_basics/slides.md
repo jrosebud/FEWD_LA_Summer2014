@@ -11,60 +11,20 @@ Instructors current role.
 
 ##Agenda
 
-*	Student Experience
-*	Intro To Web Development
-*	HTML Tags
+*	HTML Tags & CSS Selectors Review
+*	Structure Reading w/ Understanding
+*	External Style Sheets
 *	Lab Time
 
 ---
 
 
-##Student Experience
 
-*	Ask your producer and then decide how you would like to structure this lesson.
-
----
-
-
-
-##Intro To Web Development
+##HTML Tags & CSS Selectors Review
 
 
 ---
 
-##Front-End Web Development
-
-Client-Side
-
-*	HTML
-*	CSS
-*	JavaScript	
-
----
-
-##Back-End Web Development
-
-Server-Side
-
-*	Ruby
-*	PHP
-*	Python
-*	PERL
-*	C++
-
----
-
-
-
-##HTML Tags
-
----
-
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##General Assembly Press Release
-
----
 
 ##HTML Basics
 
@@ -87,6 +47,10 @@ The Doctype tells you if the page is HTML5 ready.
 Note:
 image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timeline-of-web-technologies-639x168.jpg on October 1, 2013.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ba9cbd3c4a211ced38f58060b850208268a2a1e
 ---
 
 
@@ -155,6 +119,16 @@ links 
 
 --
 
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##General Assembly Press Release
+
+---
+
+
+##External STyle Sheets 
+
+---
+
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Cookie Recipe
@@ -164,6 +138,7 @@ links 
 ## Homework
 
 *	Create a resume website
-*	Watch a video about the Internet
+*	Watch a video on the Internet about the Internet
+*	Read about CSS Colors
 
 ---

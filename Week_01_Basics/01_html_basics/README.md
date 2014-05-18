@@ -1,29 +1,23 @@
-
 ![GeneralAssemb.ly](../../img/icons/instr_agenda.png)
 
 
 ##Lesson 01 - HTML Basics
 
+###LEARNING OBJECTIVES
 
-###Learning Objectives
+*	Apply HTML tags ```<html><head><!DOCTYPE html><body>``` to a web page and experiment with html tags.
 
+*	Describe the DOM and draw a simple DOM tree.
 
-*	Establish community in the classroom and create a safe space to ask questions and learn through making mistakes.
-
-*	Recognize the different roles and responsibilities in web development. 
-
-*	Articulate the progression of HTML to HTML5.
-
-*	Apply and experiment with HTML tags ```<html><head><!DOCTYPE html><body><h1><h6>```.
-
-*	Practice using FEWD course tools (sublime text, finder, chrome).
+*	Create and link an external style sheet.
 
 
-###Schedule
+###SCHEDULE
 
 
-| Time        | Topic| GA ICLs| Comments |
+| Time        | Section| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
+<<<<<<< HEAD
 | 60 min |Student Experience | Plan with producers| The first hour of the course will be spent setting expectations and building community in the classroom. |
 | 20 min |Intro To Front-End Web Development| | Intro to web development and responsibilities of front-end web developers. From HTML to HTML5 |
 | 10 min | Navigating Your Computer | | __Optional__. Recently, we've seen a need to explain how and where to save files on the computer and how to open files using Sublime text. Some students don't know how to navigate their computer.|
@@ -32,99 +26,109 @@
 
 
 ###[Homework](../Homework/)
+=======
+| _10 min_ | [HTML Tag & CSS Selectors Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/01_html_basics/README.md#html-tags--css-selectors-review) | N/A | Review basic rules about HTML tags and CSS element selectors. Students were introduced to selectors and tags in Dash. |
+| _60 min_ | [Adding Structure](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#adding-structure) | GA Press Release | Basic site to review .html files and tags. Another great opportunity to show students how to use sublime text, and get everyone up to speed and ready to move forward.|
+| _60 min_ | [External Style Sheets](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#external-style-sheets) |GA Press Release| Demonstrate how to create an external style sheet using the press release. Review CSS selectors by styling the press release as you see fit.|
+| _50 min_ | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#lab-time) | Cookies Recipe | Students add tags to a Cookie recipe, and style as they see fit.|
+>>>>>>> 7ba9cbd3c4a211ced38f58060b850208268a2a1e
 
-Student facing homework document can be found in the Homework folder (link above). Give students at least one week to complete the homework.
-
-*	__Assignment__: Create a personal website with about me and resume pages.  
-*	__Reading__: The Guardian Blog What is front-end development?
-*	__Video__: How The Internet Works in 5 minutes [video](http://www.youtube.com/watch?v=7_LPdttKXPc)
 
 ---
 
-![Code Demo](../../img/icons/instr_code_along.png)
+###LESSON PLANNING NOTES
 
-## [GA Press Release](solution/ga_press_release)
-
-###Time: 20 min
-
-| | |
-| ------------- |:-------------|
-| __Topics__ | HTML Tags, nesting| 
-| __Description__| This is an exercise to show students basic HTML tags.|   
-|__Activity Type__| Code Along | 
- 
- 
-####Instructional Design Notes
-
-*	See a [suggestion](solution/ga_press_release/instr_notes.md) of how to implement this code along from our curriculum fellow.
-
+<<<<<<< HEAD
 *	Attach meaning to tags and show students how to approach content. 
+=======
+Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
 
-*	This introductory exercise is meant to highlight HTML tag patterns so students can look up other tags. 
+>>>>>>> 7ba9cbd3c4a211ced38f58060b850208268a2a1e
 
-Pattern examples: 
+####HTML Tags & CSS Selectors Review
+_Time : 10min_
+
+ *	This section is a refresher for students. As pre-work we asked students to complete Project 1: ["Anna's Website"](https://dash.generalassemb.ly/projects/annas-website-1) in Dash. Review tag syntax (tags have opening and closing brackets etc.) Review CSS syntax. __NOTES: Students were only introduced to element selectors.__
+ 
+Suggestions for pattern examples: 
 
 *	It starts with an opening tag and ends with a closing tag.
+<<<<<<< HEAD
 	*	__Exception__: Only tags which don't need to close are those which contain no nested content? That is, img, input, br, hr, etc (nested content could include text and text according to JS is a node in and of itself).
+=======
+	*	__Exception__: Only tags which don't need to close are those which contain no nested content? That is, img, input, br, hr, etc.
+>>>>>>> 7ba9cbd3c4a211ced38f58060b850208268a2a1e
 
 *	Some tags require an attribute (we will cover img tags next class) 
 
-*	Hierarchy of tags. (H1 is going to be bigger than h2)
+*	Hierarchy of tags. (H1 is going to be bigger than H2)
 
 *	Tags describe the content. 
 
-
-
-
-Note: Omit ordered list ```<ol>```, students will Google it during lab time.
-
----
+===
  
+ 
+####Adding Structure
+_Time : 60min_
 
-![Exercise - Instructor](../../img/icons/instr_lab.png)
+The goal of this section is to explain what it means to add "structure" to a document with HTML, and how to approach content. 
 
-Remember to share the [starter_code](starter_code/) folder at the beginning of class. Share code_along solutions before lab time so students have an example to reference. 
-
-
-##[Chocolate Chip Cookie Recipe](solution/cookie_recipe)
-
-####Time: 20 min
-
-| | |
-| ------------- |:-------------|
-| __Topics__ | html tags| 
-| __Description__| Students add markup to a chocolate chip cookie recipe. This also serves as a time to practice using web dev tools (sublime, chrome, finder etc)|    
-| __Activity Type__| Exercise| 
+*	Thanks to Dash, students should be familiar with the rules of HTML tags. Adding HTML tags are generally easy for students to grasp. However, students get confused when it comes to knowing which tag to apply to content. To a human reader like yourself, text has meaning, we can read with an understanding of the text and express that in code. 
 
 
-####Instructional Design Notes 
+#####GA Press Release
 
-*	The starter code contains an html file with a recipe for cookies and a png of the final product. Students will add HTML tags to make the page look like the .png. Students are required to google and implement the```<ol>``` tag. Highlight  the ol tag on the .png file ask students to Google how to use it.
-
-*	Bonus: Students can Google and implement the image tag. We will cover image tags next lesson.
-
-
-##[My Resume](../Homework)
-
-Start Homework
-
-####Time: Remainder Of Class
-
-| | |
-| ------------- |:-------------|
-| __Topics__ | html tags, sublime text, gathering content| 
-| __Description__| Students start to write the content for their homework. |    
-|__Activity Type__| Exercise | 
+| Code along | [GA Solution File](solution/ga_press_release)|
+| :------------- |:-------------|
+| __Time__ | 30 min| 
+| __Topics__ | HTML Tags, Nesting| 
+| __Description__| This introductory code along meant to teach students how to read with understanding and apply the correct tag.|   
+| __Notes__| Omit ordered list ```<ol>```, students will Google it during lab time.|  
 
 
-####Instructional Design Notes 
+*	See a [suggestion](solution/ga_press_release/instr_notes.md) of how our Curriculum Fellow implemented this code along.
 
-*	If time permits, ask students to start homework assignment. First step should be to create the web site folder and the index.html file. Then write plain text for the content and add the markup last.
+===
 
-Note: If you approach building a website differently, please teach students your way. The most important objectives is to give students a process in how to start.
+####External Style Sheets
+_Time: 60min_
 
----
+This can be used to introduce/review very basic aspects of CSS to students, especially as their first look at "styling a page" with external CSS. I recommend sticking to the following guidelines:
 
+*	Style specific elements to avoid inherited CSS. For instance, change the `font-family` of the `h1` instead of making a change to the `body`, which would be inherited.
+
+*	Avoid the temptation to discuss CSS Reset/Normalize or Boilerplate at this stage. 
+
+*	Keep color simple. We've included some notes about colors and fonts in the slides. If you don't have time to explain in detail, you can ask students to read the notes for homework.
+  
+
+#####GA Press Release Styled 
+
+|Code along | No solution file available|
+| :------------- |:-------------|
+| __Time__ | 30 min| 
+| __Topics__ | External style sheets, CSS selectors| 
+| __Description__| This is an exercise to show students external style sheets|   
+| __Notes__| There is no styled solution. Feel free to style how you would like. | 
+ 
+===
+
+
+####Lab Time
+_Time: 50min_
+
+Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them. 
+ 
+#####Chocolate Chip Cookie Recipe
+
+| Exercise |[Solution File](solution/cookie_recipe) |
+| :------------- |:-------------|
+| __Time__ | 50 min| 
+| __Topics__ | html tags, external style sheet | 
+| __Description__| Students add markup to a chocolate chip cookie recipe. This also serves as a time to practice web dev tools (sublime, chrome, finder etc)|    
+| __Notes__| The starter code contains .html file with instructions and an image for the bonus questions. Students are required to google and implement the```<ol>``` tag.|
+
+===
 
 [![slides](../../img/icons/slides.png)](slides.md)
 

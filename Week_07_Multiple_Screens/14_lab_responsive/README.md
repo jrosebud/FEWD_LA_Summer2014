@@ -4,83 +4,77 @@
 ##Lesson 14 - Responsive Lab
 
 
-###Learning Objectives
+###LEARNING OBJECTIVES
 
-*	Learn how to analyze a web page in order to be able to redesign it responsively.
+*	Analyze a web page in order to be able to redesign it responsively.
+
 *	Practice reusing previous code.
+
 *	Practice using media queries for responsive design.
 
 
-###Schedule
+###SCHEDULE
 
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 30 min | From Fixed To Responsive | Startup Matchmaker| Students will work in groups to identify ways to make matchmaker responsive.  |
-| 90 min | Lab Time | Responsive Startup Matchmaker| Students will make match maker responsive and then add JS to create a sliding nav bar.  |
-| 60 min | Lab Time Review | Startup Matchmaker Responsive Solution| This is time reserved to review the exercise. |
+| _20 min_ | [From Fixed To Responsive](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/14_lab_responsive/README.md#from-fixed-to-responsive) | Mobile Startup Matchmaker - part 1| Students will work in groups to identify ways to make matchmaker responsive.  |
+| _120 min_ | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/14_lab_responsive/README.md#lab-time) | Mobile Startup Matchmaker - part 2| Students will make match maker responsive and then add JS to create a sliding nav bar.  |
+| _40 min_ | [Lab Time Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/14_lab_responsive/README.md#lab-time-review) | Mobile Startup Matchmaker - part 3| This is time reserved to review the exercise. |
 
-
-###Homework
-
-*	Students should work on final project.
-*	Aditional exercises available.
 
 ---
 
-![Exercise - Instructor](../../img/icons/instr_lab.png)
+###LESSON PLANNING NOTES
 
-Remember to share the [starter_code](starter_code/) at the beginning of class. Share code_along solutions before lab time so students have an example to reference. 
+Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
+
+
+####From Fixed To Responsive
+_Time : 20min_
+
+*	Students design a responsive layout for startup matchmaker. GA provides a png for students to replicate but we want to give students a chance to try there own design first.  
+
+| Exercise| Startup Matchmaker - Part 1 Mobile Sketch. |
+| ------------- |:-------------|
+| __Time__ | 20min | 
+| __Topics__ | layouts | 
+| __Description__| Students will convert the fixed layout Startup Matchmaker to a responsively designed site |    
+| __Notes__| Ask students to create a wireframe of what they think Startup Matchmaker should look like as mobile site. Ask students to follow tips from the previous class related to stacking and hiding content. After 20 min share with students the png of the file Startup Matchmaker as viewed on a Mobile website |    
 
 ===
 
-##[Startup Matchmaker Responsive](starter_code/)
+####Lab Time
+_Time : 120min_
 
-solution found [here](solutions/startup_matchmaker_responsive/). 
+*	Time to code, students use notes from last lesson to make Startup Matchmaker responsive.  
 
-###Time: 140 min
-
-| | |
+| Exercise| [Startup Matchmaker - Part 2 Responsive.](solutions/startup_matchmaker_responsive/)|
 | ------------- |:-------------|
-| __Topics__ | Responvide, media queries, layout| 
+| __Time__ | 90min | 
+| __Topics__ | Responsive, media queries, layout| 
 | __Description__| Students will convert the fixed layout Startup Matchmaker to a responsively designed site |    
-| __Activity Type__| Paired |    
- 
-
-###Instructional Design Notes
-
-*	This exercise should be compelted in three parts. You should time box each part to make sure all students are not falling behind in the exercise. 
-
-*	Its best if you do a quick debrief after each part and make sure the students are ready to start the next.
-
-*	Students should use the version of Startup Matchmaker that they built (to offer a chance to refactor). For those that did not finish share the solution file. 
+| __Notes__| Students add CSS and media queries so that when viewed on a mobile device, the site looks like the png file provided.  |  
 
 
-####Task Instructions 
-
-#####Part 1: Startup Matchmaker Mobile Sketch.
-
-__Time 20 min__ 
-	
-*	Ask students to follow tips from the previous class related to stacking and hiding content.
-
-*	After 20 min share with students the png of the file Startup Matchmaker as viewed on a Mobile website
+| Exercise| [Startup Matchmaker - Part 3 Responsive Nav.](solutions/startup_matchmaker_responsive/)|
+| ------------- |:-------------|
+| __Time__ |30min | 
+| __Topics__ | jQuery hidden nav| 
+| __Description__| Students add JS to create a collapsible nav bar. |    
+| __Notes__| Demo the nav bar functionality. Ask students to write the JS that makes the nav open and close when clicked.  |    
 
 
-#####Part 2: Make it Responsive 
-__Time: 90min__
+===
 
-*	Students add CSS and media queries so that when viewed on a mobile device, the site looks like the png file provided.  
+####Lab Time Review
+_Time : 40min_
 
+*	Review solutions as a class. Ask for volunteers to share their solutions.
+  
 
- 
-#####Part 3: Adding JS
-__Time: 45min__
+===
 
-*	After 90 min Demo the nav bar functionality.
-*	Ask students to write the JS that makes the nav open and close when clicked.
+[![slides](../../img/icons/slides.png)](slides.md)
 
-#####Part 4: Optional
-__Time: Remaining__
-
-*	Ask student to change the CSS so the site looks like the design they came up with, in part 1.
+click icon for slides.

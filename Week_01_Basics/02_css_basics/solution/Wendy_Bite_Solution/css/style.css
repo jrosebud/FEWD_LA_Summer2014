@@ -69,7 +69,7 @@ hr {
 }
 
 img {
-	float: right;
+	/*float: right;*/
 	margin-left: 20px;
 	margin-bottom: 20px;
 	border: 1px solid #999999;

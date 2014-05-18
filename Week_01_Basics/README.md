@@ -4,10 +4,12 @@
 
 This week is about leveling the playing field. 
 
-There will be some students who find this week slow. But we want to make sure all students are at a basic level before moving on. This will make the rest of the class go smoothly. Take this time to make sure students understand how sublime text (or any other text editor you choose) and chrome are working together.
+There will be some students who find this week slow. But we want to make sure all students are at a basic level before moving on, this will make the rest of the class go smoothly. Take this time to make sure students understand how sublime text (or any other text editor you choose) and chrome are working together.
 
-Main Project: Wendy G Bite: 
+*	Assignment: Build a personal online résumé 
 
-![](02_css_basics/starter_code/WendyBite_AboutMe.png)
+*	In Class Project: Wendy G Bite: 
 
-![](02_css_basics/starter_code/WendyBite_Resume.png)
+![](02_css_basics/starter_code/WendyBite_AboutMe_final.png)
+
+![](02_css_basics/starter_code/WendyBite_Resume_final.png)

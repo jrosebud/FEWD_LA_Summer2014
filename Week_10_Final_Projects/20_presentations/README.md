@@ -5,7 +5,7 @@
 
 
 
-###Schedule
+###SCHEDULE
 
 
 | Time        | Topic| GA ICLs| Comments |
@@ -14,7 +14,7 @@
 
 
 
-###Good Job!!!!!! 
+###GREAT JOB!!!!!! 
 
 
 
